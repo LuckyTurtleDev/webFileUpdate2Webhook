@@ -18,9 +18,6 @@ RUN chmod u+x /home/user/webFileUpdate2Webhook.sh /home/user/executeList.sh \
 USER user
 WORKDIR /home/user
 
-VOLUME /home/user/list.txt:ro
-VOLUME /home/user/downloads
-
 ENV INTERVAL=3600
 
 CMD ["/home/user/executeList.sh"]
