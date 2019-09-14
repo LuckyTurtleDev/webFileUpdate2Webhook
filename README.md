@@ -12,3 +12,5 @@ example:
 ./webFileUpdate2Webhook.sh https://example.com/rss https://example2.com/webhook '/^<!/d'
 
 ```
+
+[Docker Image](https://cloud.docker.com/repository/docker/lukas1818/webfileupdate2webhook)
